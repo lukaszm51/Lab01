@@ -1,12 +1,13 @@
 package pl.edu.wszib;
 
-public abstract class MyClass {
+public abstract class MyClass implements MyInterface {
 
     //modyfikatory dostepu
     // private
     //
     // protected
     // public
+
     private String field1;
 
     String field2;
@@ -16,13 +17,17 @@ public abstract class MyClass {
     public String field4;
 
 
+
+
+
+
     //metody
     private void run1() {
         System.out.println("field1 = " + field1);
     }
 
     void run2() {
-        System.out.println("field2 = " + field2);
+        System.out.println("field2  = " + field2);
     }
 
     protected void run3() {
